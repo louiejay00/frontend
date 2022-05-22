@@ -18,17 +18,12 @@ import {
   Paper,
 } from "@material-ui/core/";
 import DeleteForeverIcon from "@material-ui/icons/DeleteForever";
-import EditTwoToneIcon from "@material-ui/icons/EditTwoTone";
 import UpdateIcon from "@material-ui/icons/Update";
 import axios from "axios";
 import { Box } from "@mui/system";
-import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import Fade from "@material-ui/core/Fade";
 import Backdrop from "@material-ui/core/Backdrop";
-import Dialog from "@material-ui/core/Dialog";
-import DialogActions from "@material-ui/core/DialogActions";
-import { useTheme } from "@material-ui/styles";
 import lightGreen from "@material-ui/core/colors/lightGreen";
 
 const fields = [

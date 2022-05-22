@@ -16,6 +16,7 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import QueueIcon from '@material-ui/icons/Queue';
 import ListItemText from "@material-ui/core/ListItemText";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import { Home, Motorcycle, Settings, RateReview } from "@material-ui/icons";
 import { Box } from "@material-ui/core";
 import { useHistory, useLocation } from "react-router-dom";
@@ -156,6 +157,7 @@ export default function PersistentDrawerLeft({ children }) {
       {
         title: "Logout",
         url: "/logout",
+        icon: <ExitToAppIcon />,
       },
     ];
   }, []);

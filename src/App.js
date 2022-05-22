@@ -21,10 +21,6 @@ import axios from "axios";
 import AuthContext from "./context/AuthProvider";
 
 
-App.get('/', (req, res) => {
-  res.send('Server Running .....')
-  })
-
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const { auth } = useContext(AuthContext);

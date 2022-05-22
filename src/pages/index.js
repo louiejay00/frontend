@@ -5,21 +5,19 @@ export default function IndexPage() {
     <>
       <Typography paragraph>
         E-tulod ride hailing application that is convinient for people who don't have go
-        to the toda station or wait for other passengers inorder for them to 
+        to the toda station or wait for other passengers.  E-Tulod will be a mobile application 
+        that will notify tricycle drivers within Bayombong that there is a passenger
+        available for pick up (after a passenger inputs the details in the app)
+        and they will have the option to pick up the passenger after the request is 
+        accepted the passenger will be notified that there is a tricycle on the way.  
+
       </Typography>
       <Typography paragraph>
-        Consequat mauris nunc congue nisi vitae suscipit. Fringilla est
-        ullamcorper eget nulla facilisi etiam dignissim diam. Pulvinar elementum
-        integer enim neque volutpat ac tincidunt. Ornare suspendisse sed nisi
-        lacus sed viverra tellus. Purus sit amet volutpat consequat mauris.
-        Elementum eu facilisis sed odio morbi. Euismod lacinia at quis risus sed
-        vulputate odio. Morbi tincidunt ornare massa eget egestas purus viverra
-        accumsan in. In hendrerit gravida rutrum quisque non tellus orci ac.
-        Pellentesque nec nam aliquam sem et tortor. Habitant morbi tristique
-        senectus et. Adipiscing elit duis tristique sollicitudin nibh sit.
-        Ornare aenean euismod elementum nisi quis eleifend. Commodo viverra
-        maecenas accumsan lacus vel facilisis. Nulla posuere sollicitudin
-        aliquam ultrices sagittis orci a.
+        This project is a different take on other ride hailing mobile applications 
+        because instead of using private vehicles or cars the mobile application utilizes 
+        tricycles which is very common for transportation in Bayombong. Also, the mobile 
+        application uses SMS text message for notifications and transfer of information 
+        from passenger to Tricycle driver.  
       </Typography>
     </>
   );
