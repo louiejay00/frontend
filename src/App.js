@@ -20,7 +20,6 @@ import LoginPage from "./pages/Login";
 import axios from "axios";
 import AuthContext from "./context/AuthProvider";
 
-
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const { auth } = useContext(AuthContext);
@@ -147,7 +146,7 @@ function App() {
   );
 
   useEffect(() => {
-    axios.defaults.baseURL = "http://localhost:5000";
+    axios.defaults.baseURL = process.env.BACKEND_URL;
   }, []);
   console.log({ auth });
   if (!auth) {
