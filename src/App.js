@@ -146,7 +146,7 @@ function App() {
   );
 
   useEffect(() => {
-    axios.defaults.baseURL = process.env.BACKEND_URL;
+    axios.defaults.baseURL = "https://etulod-admin-backend.herokuapp.com/";
   }, []);
   console.log({ auth });
   if (!auth) {
